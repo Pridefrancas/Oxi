@@ -152,7 +152,7 @@ div {
   background-repeat: no-repeat;
   background-position: center center;
   border: transparent;
-  text-indent: -9000px;
+  text-indent:-9000px; /* csslint allow: text-indent */
   text-align: center;
   position: absolute;
   line-height: 34px;
@@ -244,7 +244,7 @@ div {
   color: #fff;
   letter-spacing: 0.015rem;
   line-height: 2.555rem;
-  background: #035b48;
+  background: #214e6e;
   border-radius: 1.25rem 1.25rem 0 1.25rem;
   text-align: left;
   display: block;
